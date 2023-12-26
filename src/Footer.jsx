@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = ({ socialLinks }) => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer id="social" className="bg-gray-800 text-white py-8">
       <div className="container mx-auto flex flex-col items-center">
         <div className="flex space-x-4 mb-4">
           {socialLinks.map((link, index) => (

@@ -3,9 +3,9 @@ import React from 'react';
 import Header from './Header';
 import Projects from './Projects';
 import Skills from './Skills';
-import SocialLinks from './SocialLinks';
 import './App.css';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
  // src/App.js
@@ -31,8 +31,8 @@ const projects = [
   const skills = ['React', 'JavaScript', 'Node.js', 'MongoDB', 'HTML', 'CSS', 'Tailwind CSS'];
 
   const socialLinks = [
-    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/yourname/', icon: 'linkedin' },
-    { name: 'GitHub', url: 'https://github.com/yourusername/', icon: 'github' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/karan-kumar-7686b7230/', icon: 'linkedin' },
+    { name: 'GitHub', url: 'https://github.com/Karankuamr45', icon: 'github' },
     { name: 'Twitter', url: 'https://twitter.com/yourhandle/', icon: 'twitter' },
     { name: 'Portfolio Blog', url: 'https://yourblog.com/', icon: 'link' },
   ];
@@ -44,8 +44,10 @@ const projects = [
         <Projects projects={projects} />
         <Skills skills={skills} />
         {/* <SocialLinks links={socialLinks} /> */}
-        <Footer socialLinks={socialLinks} />
+        
       </div>
+      <Footer socialLinks={socialLinks} />
+        <ScrollToTop />
     </div>
   );
 }
