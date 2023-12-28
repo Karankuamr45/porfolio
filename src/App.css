@@ -37,3 +37,23 @@ body {
 .scroll-to-top.visible {
   opacity: 1;
 }
+
+
+/* App.css */
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  100% {
+    background-position: 100% 19%;
+  }
+}
+
+.animate-rainbow {
+  background: linear-gradient(45deg, #713a02, #ac0505, #4b0082, #8b00ff);
+  background-size: 1200% 1200%;
+  animation: rainbow 15s infinite;
+}
+
+
+

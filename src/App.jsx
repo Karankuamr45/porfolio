@@ -6,6 +6,7 @@ import Skills from './Skills';
 import './App.css';
 import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
+import ContactForm from './ContactForm';
 
 function App() {
  // src/App.js
@@ -43,6 +44,7 @@ const projects = [
       <div className="container mx-auto">
         <Projects projects={projects} />
         <Skills skills={skills} />
+        <ContactForm/>
         {/* <SocialLinks links={socialLinks} /> */}
         
       </div>
