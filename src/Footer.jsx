@@ -18,7 +18,7 @@ const Footer = ({ socialLinks }) => {
             </a>
           ))}
         </div>
-        <p className="text-gray-500 text-sm">© 2023 Your Name. All rights reserved.</p>
+        <p className="text-gray-500 text-sm">© 2023 Karan. All rights reserved.</p>
       </div>
     </footer>
   );

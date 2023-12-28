@@ -16,8 +16,8 @@ const Header = ({ name, description, image }) => {
             <Link to="skills" smooth={true} duration={500} className="hover:text-gray-200  text-xl sm:text-2xl cursor-pointer">
               Skills
             </Link>
-            <Link to="social" smooth={true} duration={500} className="hover:text-gray-200 text-xl sm:text-2xl cursor-pointer">
-              Social
+            <Link to="about" smooth={true} duration={500} className="hover:text-gray-200 text-xl sm:text-2xl cursor-pointer">
+              About
             </Link>
             <Link to="contact" smooth={true} duration={500} className="hover:text-gray-200 text-xl sm:text-2xl cursor-pointer">
               Contact
