@@ -19,8 +19,8 @@ const projects = [
     link:'https://vercel.com/karankuamr45s-projects/ziggy'
   },
   {
-    name: 'Task Management App',
-    description: 'Developed a task management app with CRUD functionality using Node.js and MongoDB.',
+    name: 'Food Ordering App',
+    description: 'Developed a food ordering app with some functionality using React and Taiwind css.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScn-_CuQHM_M5eK7e4HZFwO-mkcSXzRfMKnvRZ8umDUfv3Sfekinem4MUB3s_Wv_MtH3c&usqp=CAU',
     link:'https://vercel.com/karankuamr45s-projects/ziggy'
   },
@@ -38,20 +38,20 @@ const projects = [
   const socialLinks = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/karan-kumar-7686b7230/', icon: 'linkedin' },
     { name: 'GitHub', url: 'https://github.com/Karankuamr45', icon: 'github' },
-    { name: 'Twitter', url: 'https://twitter.com/yourhandle/', icon: 'twitter' },
-    { name: 'Portfolio Blog', url: 'https://yourblog.com/', icon: 'link' },
+    // { name: 'Twitter', url: 'https://twitter.com/yourhandle/', icon: 'twitter' },
+    // { name: 'Portfolio Blog', url: 'https://yourblog.com/', icon: 'link' },
   ];
 
   const aboutMeData = {
     name: 'Karan',
     role: 'front-end web developer',
-    bio: `Hello, I'm Karan, a passionate Front-End Web Developer with a keen eye for design and a love for creating seamless, user-friendly experiences. My journey in web development started with a curiosity for turning ideas into interactive, visually appealing websites.`,
+    bio: `Hello, I'm Karan, a dedicated Front-End Web Developer with a keen eye for design and a love for creating seamless, user-friendly experiences. My journey in web development started with a curiosity for turning ideas into interactive, visually appealing websites.Whether it's developing responsive and dynamic components  or ensuring a pixel-perfect design , I thrive on transforming ideas into polished, functional, and engaging websites.`,
     image: 'https://w0.peakpx.com/wallpaper/709/897/HD-wallpaper-manhwa-anime-boy.jpg',
   };
 
   return (
     <div className="App">
-      <Header name="Karan" description="Web Developer" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQCdxxiSrlUYNUfFdRtTZeVcJFyjT3KpM9p4GBCgfywdlNJ7twEwJNpRktoJkaDucbKo&usqp=CAU" />
+      <Header name="Karan" description="Front-End Web Developer" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQCdxxiSrlUYNUfFdRtTZeVcJFyjT3KpM9p4GBCgfywdlNJ7twEwJNpRktoJkaDucbKo&usqp=CAU" />
       <div className="container mx-auto">
         <Projects projects={projects} />
         <AboutMe {...aboutMeData} />

@@ -1,9 +1,15 @@
-// src/components/Skills.js
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skills = ({ skills }) => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1500}); // Adjust duration and other options as needed
+  }, []);
+
   return (
-    <section id="skills" className="py-16 my-24 bg-gradient-to-r from-indigo-900 to-gray-800">
+    <section id="skills" className="py-16 my-24 bg-gradient-to-r from-indigo-900 to-gray-800" data-aos="fade-up-right">
       <h2 className="text-2xl text-center font-bold mb-8 text-white">Skills</h2>
       <ul className="flex flex-wrap justify-center items-center">
         {skills.map((skill, index) => (

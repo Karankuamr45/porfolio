@@ -1,7 +1,13 @@
-// src/components/ContactForm.js
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactForm = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1500}); // Adjust duration and other options as needed
+  }, []);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -48,7 +54,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="contact" className="bg-white w-full mb-5">
+    <div id="contact" className="bg-white w-full mb-5" data-aos="fade-up-right">
       <div className="bg-gradient-to-r from-indigo-900 to-gray-800  p-8 rounded-md shadow-md mx-auto max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-white text-center">Contact Me</h2>
         {success ? (
