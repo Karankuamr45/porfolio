@@ -22,13 +22,13 @@ const projects = [
     name: 'Food Ordering App',
     description: 'Developed a food ordering app with some functionality using React and Taiwind css.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScn-_CuQHM_M5eK7e4HZFwO-mkcSXzRfMKnvRZ8umDUfv3Sfekinem4MUB3s_Wv_MtH3c&usqp=CAU',
-    link:'https://vercel.com/karankuamr45s-projects/ziggy'
+    link:'https://ziggy-sooty.vercel.app/'
   },
   {
     name: 'Portfolio Website',
     description: 'Designed and implemented a portfolio website using React and Tailwind CSS.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8jbAxwM1MPj2AHUhgNJ1WRwW_P7yHUq5xiAwRDouaw&s',
-    link:'https://vercel.com/karankuamr45s-projects/ziggy'
+    link:'https://portfolio-cel6.vercel.app/'
   },
 ];
 
