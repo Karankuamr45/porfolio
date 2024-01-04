@@ -50,7 +50,7 @@ const projects = [
   };
 
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <Header name="Karan" description="Front-End Web Developer" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQCdxxiSrlUYNUfFdRtTZeVcJFyjT3KpM9p4GBCgfywdlNJ7twEwJNpRktoJkaDucbKo&usqp=CAU" />
       <div className="container mx-auto">
         <Projects projects={projects} />
