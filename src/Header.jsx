@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import me from './assets/me.jpeg';
-import TypedText from './type';
+import TypedText from './Type';
 
 
 const Header = ({ name, description, image }) => {
