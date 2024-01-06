@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import me from './assets/me.jpeg';
+import TypedText from './type';
 
 
 const Header = ({ name, description, image }) => {
@@ -30,7 +31,7 @@ const Header = ({ name, description, image }) => {
         <div className="container mx-auto flex items-center justify-between xl:w-[900px]">
           <div className="text-left animate__animated animate__pulse transition-transform">
             <h1 className="text-6xl font-bold text-white mb-4 transform hover:scale-110 transition-transform">{name}</h1>
-            <p className="text-lg text-white transform hover:translate-x-2 transition-transform">{description}</p>
+            <TypedText/>
           </div>
           <div className="rounded-full overflow-hidden border-4 border-white sm:w-64 sm:h-64 w-48 h-48 animate__animated animate__fadeInRight transform transition-transform sm:hover:scale-110">
             <img src={me} alt={name} className="w-full h-full object-cover object-center" />
