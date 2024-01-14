@@ -16,7 +16,7 @@ const projects = [
     name: 'E-commerce Website',
     description: 'Built a fully functional e-commerce site using React and Redux.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKqiI_xL3b6MUrZ6EFcfgEMFKaD63KdStbMCuJH7dOZmvFdz8WhQwNfMWJYvjBnSOsCg&usqp=CAU',
-    link:'https://vercel.com/karankuamr45s-projects/ziggy'
+    link:'https://ziggyfront.vercel.app/'
   },
   {
     name: 'Food Ordering App',
