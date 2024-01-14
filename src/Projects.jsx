@@ -16,7 +16,7 @@ const ProjectCard = ({ name, description, image,link }) => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-indigo-600  transition-colors duration-300 "
-        data-aos="fade-up-right"
+        data-aos="fade-up"
       >
       <div className="bg-gradient-to-r from-indigo-900 to-gray-800 bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-lg" >
       <img src={image} alt={name} className="w-full h-52 object-cover object-center mb-4 transition-transform transform hover:scale-110" />

@@ -9,7 +9,7 @@ const Skills = ({ skills }) => {
   }, []);
 
   return (
-    <section id="skills" className="py-16 my-24 bg-gradient-to-r from-indigo-900 to-gray-800" data-aos="fade-up-right">
+    <section id="skills" className="py-16 my-24 bg-gradient-to-r from-indigo-900 to-gray-800" data-aos="fade-up">
       <h2 className="text-2xl text-center font-bold mb-8 text-white">Skills</h2>
       <ul className="flex flex-wrap justify-center items-center">
         {skills.map((skill, index) => (

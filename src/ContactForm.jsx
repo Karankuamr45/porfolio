@@ -54,7 +54,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="contact" className="bg-white w-full mb-5" data-aos="fade-up-right">
+    <div id="contact" className="bg-white w-full mb-5" data-aos="fade-up">
       <div className="bg-gradient-to-r from-indigo-900 to-gray-800  p-8 rounded-md shadow-md mx-auto max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-white text-center">Contact Me</h2>
         {success ? (
