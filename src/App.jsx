@@ -13,7 +13,7 @@ function App() {
  // src/App.js
 const projects = [
   {
-    name: 'E-commerce Website',
+    name: 'Api added project',
     description: 'Built a fully functional e-commerce site using React and Redux.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKqiI_xL3b6MUrZ6EFcfgEMFKaD63KdStbMCuJH7dOZmvFdz8WhQwNfMWJYvjBnSOsCg&usqp=CAU',
     link:'https://ziggyfront.vercel.app/'
