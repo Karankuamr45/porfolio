@@ -15,13 +15,13 @@ const projects = [
   {
     name: 'Api added project',
     description: 'Built a fully functional e-commerce site using React and Redux.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKqiI_xL3b6MUrZ6EFcfgEMFKaD63KdStbMCuJH7dOZmvFdz8WhQwNfMWJYvjBnSOsCg&usqp=CAU',
-    link:'https://ziggyfront.vercel.app/'
+    image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822469/abrjjj4glypx1qi4iuf3.jpg',
+    link:'https://restaurant-api-maker.vercel.app/'
   },
   {
     name: 'Food Ordering App',
     description: 'Developed a food ordering app with some functionality using React and Taiwind css.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScn-_CuQHM_M5eK7e4HZFwO-mkcSXzRfMKnvRZ8umDUfv3Sfekinem4MUB3s_Wv_MtH3c&usqp=CAU',
+    image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822425/jzbtwut2tsafiepk5hn0.jpg',
     link:'https://ziggy-sooty.vercel.app/'
   },
   {
