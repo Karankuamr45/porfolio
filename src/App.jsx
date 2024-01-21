@@ -13,23 +13,24 @@ function App() {
  // src/App.js
 const projects = [
   {
-    name: 'Api added project',
-    description: 'Built a fully functional e-commerce site using React and Redux.',
+    name: 'Restaurant Api maker',
+    description: 'Built a fully functional  api maker with React,tailwind,node,express,mongoose.where you can do crud operation.',
     image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822469/abrjjj4glypx1qi4iuf3.jpg',
     link:'https://restaurant-api-maker.vercel.app/'
   },
   {
-    name: 'Food Ordering App',
-    description: 'Developed a food ordering app with some functionality using React and Taiwind css.',
+    name: 'GreatKart',
+    description: 'Developed a ecom app with some functionality using node,ejs,express,mongoose, and expres-session with authentication.',
     image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822425/jzbtwut2tsafiepk5hn0.jpg',
-    link:'https://ziggy-sooty.vercel.app/'
+    link:'https://greatkart-qio3.onrender.com'
   },
   {
-    name: 'Portfolio Website',
-    description: 'Designed and implemented a portfolio website using React and Tailwind CSS.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8jbAxwM1MPj2AHUhgNJ1WRwW_P7yHUq5xiAwRDouaw&s',
-    link:'https://portfolio-cel6.vercel.app/'
+    name: 'Food Order app(still in progress)',
+    description: 'Developed a food order app with  using react,tailwind,node,express,mongoose,and expres-session.',
+    image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705824055/dfyaoyvqtgaf0f8f02c0.jpg',
+    link:'https://ziggy-sooty.vercel.app/'
   },
+ 
 ];
 
 
