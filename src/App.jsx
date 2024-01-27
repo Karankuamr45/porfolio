@@ -25,7 +25,7 @@ const projects = [
     link:'https://greatkart-qio3.onrender.com'
   },
   {
-    name: 'Food Order app(still in progress)',
+    name: 'Food Order app',
     description: 'Developed a food order app with  using react,tailwind,node,express,mongoose,and expres-session.',
     image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705824055/dfyaoyvqtgaf0f8f02c0.jpg',
     link:'https://ziggy-sooty.vercel.app/'
