@@ -12,12 +12,12 @@ import AboutMe from './Aboutme';
 function App() {
  // src/App.js
 const projects = [
-  {
-    name: 'Restaurant Api maker',
-    description: 'Built a fully functional  api maker with React,tailwind,node,express,mongoose.where you can do crud operation.',
-    image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822469/abrjjj4glypx1qi4iuf3.jpg',
-    link:'https://restaurant-api-maker.vercel.app/'
-  },
+  // {
+  //   name: 'Restaurant Api maker',
+  //   description: 'Built a fully functional  api maker with React,tailwind,node,express,mongoose.where you can do crud operation.',
+  //   image: 'https://res.cloudinary.com/dsmg4dxbj/image/upload/v1705822469/abrjjj4glypx1qi4iuf3.jpg',
+  //   link:'https://restaurant-api-maker.vercel.app/'
+  // },
   {
     name: 'GreatKart',
     description: 'Developed a ecom app with some functionality using node,ejs,express,mongoose, and expres-session with authentication.',
